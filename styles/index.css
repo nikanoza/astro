@@ -165,5 +165,60 @@ body{
     height: 45px;
     display: flex;
     column-gap: 15px;
+    align-items: center;
+    padding: 0 24px;
+    border-radius: 23px;
+    text-decoration: none;
 } 
 
+.services-menu a span{
+    font-size: 13px;
+    color: var(--textGray);
+}
+
+.menu-right-arrow{
+    margin-left: auto;
+}
+
+.services-menu a.active, 
+.services-menu a:hover{
+    background-color: var(--Violet);
+}
+
+.services-menu a.active svg g g path, 
+.services-menu a.active svg path
+.services-menu a:hover svg g g path, 
+.services-menu a:hover svg path {
+    fill: #fff;
+}
+
+.services-menu a.active span, 
+.services-menu a:hover span{
+    color: #fff;
+}
+
+.services-menu a.active .menu-right-arrow, 
+.services-menu a:hover .menu-right-arrow{
+    display: none;
+}
+
+.diagrams-active{
+    display: none;
+}
+
+.services-menu a.active .diagrams-active, 
+.services-menu a:hover .diagrams-active{
+    display: block;
+}
+
+.services-menu a.active .diagrams, 
+.services-menu a:hover .diagrams{
+    display: none;
+}
+
+.services-menu a.active svg g g , 
+.services-menu a.active svg g path,
+.services-menu a:hover svg g g ,
+.services-menu a:hover svg g path {
+    stroke: #fff;
+}
