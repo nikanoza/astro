@@ -7,12 +7,6 @@
     font-display: swap;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 :root{
     --darkBlue: #121325;
     --darkGray: #1C1E34;
@@ -23,6 +17,12 @@
     --Violet: #7257C4;
     --line: #4C4380;
     --textGray: #D5DCFF;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 html,body{

@@ -222,3 +222,89 @@ body{
 .services-menu a:hover svg g path {
     stroke: #fff;
 }
+
+/* page content styles*/
+.page-content{
+    border-radius: 20px 20px 0 0;
+    background-color: var(--Gray);
+    margin-left: 17px;
+}
+.page-header{
+    padding: 0 50px;
+    margin-top: 21px;
+    display: flex;
+    align-items: center;
+}
+
+.page-header span{
+    font-size: 14px;
+    color: var(--lightGray);
+    margin-left: 17.52px;
+}
+
+#user-details{
+    display: flex;
+    padding: 0 50px;
+}
+
+.user-info{
+    width: 338.87px;
+}
+
+.user-info-header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 22.5px;
+}
+
+.user-info-header span{
+    font-size: 16px;
+    color: var(--lightGray);
+    margin-left: 16px;
+}
+
+.user-info-line{
+    margin-top: 14px;
+}
+
+#details{
+    margin-top: 15.75px;
+}
+
+.info-list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 26.5px;
+    margin-bottom: 36.12px;
+}
+
+.info-list li {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.info-list li span{
+    font-size: 13px;
+    color: var(--lightGray);
+}
+
+.info-key{
+    margin-left: 24.5px;
+}
+
+.info-value{
+    margin-left: auto;
+    width: 100px;
+}
+
+.elements-box{
+    width: 180.26px;
+}
+
+#elements-title{
+    font-size: 14px;
+    color: var(--lightGray);
+}
