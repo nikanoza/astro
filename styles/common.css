@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'BPG Mrgvlovani';
+    src: url('../assets/fonts/BPGMrgvlovani.woff2') format('woff2'),
+    url('../assets/fonts/BPGMrgvlovani.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --darkBlue: #121325;
+    --darkGray: #1C1E34;
+    --Gray: #2A2C4A;
+    --lightGray: #C7D0FE;
+    --grayBorder: #383B64;
+    --Pink: #EE2D87;
+    --Violet: #7257C4;
+    --line: #4C4380;
+}
+
+html,body{
+    width:100%;
+    height:100%;
+    position: relative;
+    font-family: 'BPG Mrgvlovani';
+}
+
