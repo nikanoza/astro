@@ -1,0 +1,181 @@
+:root{
+    --registerBg: #272845;
+    --formBorder: #3E3968;
+    --formControlBg: #3B3D6E;
+    --inputText: #9C7DF6;
+    --inputPlaceholder: #C5CCF1;
+    --checkboxBorder: #7A82AE;
+    --checkboxActive: #65DC4F;
+    --lightBlood: #FF3A85;
+    --questionColor: #2EB8FF;
+    --Yellow: #FFBE27;
+}
+
+body{
+    background-color: var(--registerBg);
+    background-image: url(../assets/images/register/top.svg), url(../assets/images/register/bottom.svg);
+    background-size: 1162.33px 736.92px, 1162.33px 736.92px;
+    background-position: top 15px left 346px, top 248px left 411px;
+    background-repeat: no-repeat, no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#sign-up{
+    width: 485px;
+    height: 411px;
+    background-color: var(--registerBg);
+    border: 4px solid var(--formBorder);
+    border-radius: 20px;
+    margin-top: 205.63px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 55px 0 60px;
+}
+
+.form-logo{
+    margin-top: -46px;
+}
+
+.form-title{
+    font-size: 16px;
+    color: var(--textGray);
+    margin-top: 24px;
+}
+
+.input-box{
+    width: 100%;
+    height: 55px;
+    margin-top: 26px;
+    background-color: var(--formControlBg);
+    border: 2px solid var(--formControlBg);
+    border-radius: 28px;
+    position: relative;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    border-radius: 28px;
+    background-color: transparent;
+    padding-left: 55.09px;
+    padding-right: 30px;
+    color: var(--inputText);
+}
+.input-box input::placeholder{
+    color: var(--inputPlaceholder);
+}
+
+.mail-icon{
+    position: absolute;
+    top: 18.7px;
+    left: 21.7px;
+}
+
+.controls{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.remember{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--checkboxBorder);
+    margin-left: 19.9px;
+    cursor: pointer;
+}
+
+.remember img{
+    display: none;
+}
+
+.remember.active{
+    background-color: var(--checkboxActive);
+    border-color: var(--checkboxActive);
+}
+
+.remember.active img{
+    display: block;
+}
+
+.remember-text{
+    font-size: 12px;
+    color: var(--lightGray);
+    margin-left: 13px;
+    cursor: pointer;
+}
+
+.recovery{
+ font-size: 13px;
+ color: var(--lightBlood);
+ margin-left: auto;
+ margin-right: 15.5px;
+ cursor: pointer;
+ text-decoration: none;
+}
+
+.submit-btn{
+    margin-top: 39.5px;
+    width: 202px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background-color: var(--Violet);
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.submit-btn a{
+    text-decoration: none;
+    font-size: 13px;
+    color: white;
+}
+
+.question{
+    font-size: 16px;
+    color: var(--questionColor);
+    margin-top: 79px;
+}
+
+.question-description{
+    margin-top: 13px;
+    font-size: 13px;
+    color: var(--lightGray);
+    width: 424px;
+    text-align: center;
+}
+
+#register-btn{
+    margin-top: 26px;
+    width: 202px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    background-color: var(--questionColor);
+    font-size: 13px;
+    color: white;
+    cursor: pointer;
+}
+
+.question-box{
+    display: flex;
+    align-items: center;
+    column-gap: 11.11px;
+    margin-top: 50.06px;
+    cursor: pointer;
+}
+
+.help{
+    font-size: 13px;
+    color: var(--Yellow);
+}
