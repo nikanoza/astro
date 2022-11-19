@@ -10,6 +10,56 @@
     <title>ASTRO</title>
   </head>
   <body>
+    <div class="modal">
+      <div class="popup map-popup">
+        <button class="close">
+          <img src="./assets/images/close.svg" alt="close icon" />
+        </button>
+        <h3 class="popup-header">მოგესალმებით!</h3>
+        <p class="modal-description">
+          ნატალური რუკის სანახავად შეავსეთ შესაბამისი ველები
+        </p>
+        <hr class="modal-line" />
+        <form class="birth-form" id="birth-form">
+          <h3 class="form-header">დაბადების თარიღი</h3>
+          <div class="birth-box">
+            <input type="number" name="day" placeholder="რიცხვი" />
+            <input type="number" name="month" placeholder="თვე" />
+            <input type="number" name="year" placeholder="წელი" />
+          </div>
+          <h3 class="form-header">დაბადების დრო</h3>
+          <div class="birth-box time-box">
+            <input type="number" name="day" placeholder="საათი" />
+            <input type="number" name="year" placeholder="წუთი" />
+            <img
+              src="./assets/images/clock.svg"
+              alt="clock icon"
+              class="time-icon"
+            />
+          </div>
+          <h3 class="form-header">დაბადების ადგილი</h3>
+          <div class="birth-address">
+            <img
+              src="./assets/images/address.svg"
+              alt="address icon"
+              class="address-icon"
+            />
+            <select
+              name="birth-address"
+              id="birth-address"
+              class="address-select"
+            >
+              <option value="" selected disabled>
+                შეიყვანეთ თქვენი დაბადების ადგილი
+              </option>
+              <option value="tbilisi">თბილისი</option>
+              <option value="rustavi">რუსთავი</option>
+            </select>
+          </div>
+          <button type="submit" class="submit-btn">მოთხოვნა</button>
+        </form>
+      </div>
+    </div>
     <header class="header" id="header">
       <img src="./assets/images/logo.svg" alt="astro logo" />
       <div id="header-right">

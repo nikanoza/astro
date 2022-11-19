@@ -8,7 +8,7 @@
 }
 
 :root{
-    --darkBlue: #121325;
+    --darkBlue: #17181b;
     --darkGray: #1C1E34;
     --Gray: #2A2C4A;
     --lightGray: #C7D0FE;
@@ -26,6 +26,7 @@
     --darkText: #121325;
     --descriptionHover: #E2E7FF;
     --descriptionsBorder: #DADCF6;
+    --modalBg: rgba(17, 18, 37, 0.7);
 }
 
 *{
@@ -357,4 +358,21 @@ body{
     stroke: var(--Violet);
 }
 
+/* modal popup styles*/
+.modal{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: var(--modalBg);
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.popup{
+    width: 500px;
+    background-color: var(--lightBackground);
+    border-radius: 25px;
+    box-shadow: 9px 3px 16px #00000026;
+}
