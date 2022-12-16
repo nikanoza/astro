@@ -13,6 +13,8 @@ const regUserIcon = document.querySelector(".reg-user-icon");
 const passwordIcon = document.getElementById("eye-icon-password");
 const repeatPasswordIcon = document.getElementById("eye-icon-repeat-password");
 const confirm = document.querySelector(".confirm-checkbox");
+const avatarModal = document.querySelector("#avatar-popup");
+const file = document.getElementById("file-avatar");
 
 addressSelect.value = "";
 addressSelect.addEventListener("change", () => {
@@ -118,4 +120,31 @@ regPopupForm.addEventListener("submit", (e) => {
   e.preventDefault();
   const registerPopup = document.getElementById("register-popup");
   registerPopup.style.display = "none";
+  avatarModal.style.display = "flex";
+});
+
+const skipAvatar = () => {
+  avatarModal.style.display = "none";
+};
+
+file.addEventListener("input", (e) => {
+  const description = document.querySelector(".avatar-description");
+  description.textContent = "ფოტო იტვირთბა...";
+  const warning = document.querySelector(".warning");
+  warning.style.display = "none";
+  const animation = document.querySelector(".animation-bar");
+  animation.style.display = "block";
+  setTimeout(() => {
+    let selectedFile = e.target.files[0];
+    let reader = new FileReader();
+
+    let imgTag = document.querySelector(".user-big-icon");
+    imgTag.title = selectedFile.name;
+
+    reader.onload = function (event) {
+      imgTag.src = event.target.result;
+    };
+
+    reader.readAsDataURL(selectedFile);
+  }, 5000);
 });

@@ -202,8 +202,28 @@
     </div>
 
     <!-- ავატარის ატვირთვის მოდალი  -->
-    <div class="modal" id="register-popup">
-      <div class="popup map-popup"></div>
+    <div class="modal" id="avatar-popup">
+      <div class="popup avatar-popup">
+        <img
+          src="./assets/images/popups/user-big-img.svg"
+          alt=""
+          class="user-big-icon"
+        />
+        <h3 class="name">გიორგი დევაძე</h3>
+        <p class="avatar-description">ატვირთეთ პროფილის სურათი ან გამოტოვეთ</p>
+        <p class="warning">PNG, JPG ან GIF: მაქსიმუმ 3MB</p>
+        <div class="animation-bar">
+          <div class="progress-bar"></div>
+        </div>
+        <label id="file" for="file-avatar">
+          <span>სურათის ატვირთვა</span>
+          <img src="./assets/images/popups/camera.svg" alt="camera icon" />
+        </label>
+        <input type="file" name="file" id="file-avatar" />
+        <button type="submit" class="submit-btn" onclick="skipAvatar()">
+          გამოტოვება
+        </button>
+      </div>
     </div>
 
     <header class="header" id="header">

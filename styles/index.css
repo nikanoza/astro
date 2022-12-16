@@ -610,3 +610,105 @@
     margin-top: 33px;
     margin-bottom: 63px;
 }
+
+
+#avatar-popup{
+    display: none;
+}
+
+.avatar-popup {
+    height: 671px;
+    background-image: url(../assets/images/register/popup-bg.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.user-big-icon{
+    margin-top: 113px;
+    width: 156px;
+    height: 156px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.avatar-popup .name{
+    font-size: 18px;
+    color: black;
+    margin-top: 15px;
+}
+
+.avatar-description{
+    font-size: 14px;
+    color: black;
+    margin-top: 16px;
+    width: 306px;
+    text-align: center;
+}
+
+.warning{
+    font-size: 14px;
+    color: var(--Violet);
+    margin-top: 10.49px;
+}
+
+#file{
+    width: 100%;
+    height: 45px;
+    border-radius: 23px;
+    border: 1px solid var(--inputBorder);
+    background-color: var(--modalInputBackground);
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    column-gap: 24px;
+    cursor: pointer;
+}
+
+#file span{
+    font-size: 14px;
+    color: black;
+    margin-left: 121px;
+}
+
+.avatar-popup .submit-btn{
+    margin-left: 0;
+}
+
+#file-avatar{
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.animation-bar{
+    display: none;
+    margin-top: 23px;
+    width: 239px;
+    height: 10px;
+    border-radius: 23px;
+    background-color: white;
+}
+
+@keyframes upload {
+    100%{
+        width: 100%;
+    }
+}
+
+.progress-bar{
+    width: 0;
+    height: 100%;
+    border-radius: 23px;
+    background-color: var(--Violet);
+    animation: upload 5s forwards;
+}
