@@ -27,6 +27,8 @@
     --descriptionHover: #E2E7FF;
     --descriptionsBorder: #DADCF6;
     --modalBg: rgba(17, 18, 37, 0.7);
+    --checkboxBorder: #7A82AE;
+    --checkboxActive: #65DC4F;
 }
 
 *{
@@ -112,7 +114,7 @@ body{
     border-color: var(--Violet);
 }
 
-.register-btn:hover span{
+.register-btn:hover a{
     color: white;
 }
 
@@ -124,7 +126,8 @@ body{
     stroke: white;
 }
 
-.register-btn span{
+.register-btn a{
+    text-decoration: none;
     font-size: 13px;
     color: var(--lightGray);
 }

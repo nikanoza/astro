@@ -393,3 +393,220 @@
     margin-left: 93.45px;
     cursor: pointer;
 }
+
+.loading{
+    display: none;
+    height: 671px;
+    background-image: url(../assets/images/register/popup-bg.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle{
+    position: absolute;
+    left: 50%;
+    top: 220px;
+    margin-left: -43px;
+    animation: rounded 1s infinite;
+}
+
+.popup-logo{
+    position: absolute;
+    left: 50%;
+    top: 245px;
+    transform: translateX(-50%);
+}
+
+@keyframes rounded {
+    0%{
+        transform: rotate(0deg)
+    }
+    100%{
+        transform: rotate(360deg)
+    }
+}
+
+.loading h3{
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    width: 369px;
+    text-align: center;
+}
+
+.loading h4{
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+#popup-doted-circle{
+    display:none;
+    margin-left: -47px;
+}
+
+#popup-checked{
+    display: none;
+    margin-top: -8px;
+}
+
+#register-popup{
+    display: none;
+}
+
+.reg-modal-description{
+    width: 424px;
+}
+
+#reg-form{
+    margin-top: 30.61px;
+    width: 100%;
+    padding-right: 30px;
+}
+
+.input-group{
+    width: 100%;
+    height: 45px;
+    border: 2px solid #E1E6FB;
+    border-radius: 23px;
+    background-color: white;
+    position: relative;
+}
+
+.reg-icon{
+    position: absolute;
+    top: 11.67px;
+    left: 15.14px;
+}
+
+.input-group input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-radius: 23px;
+    padding-left: 55px;
+    padding-right: 10px;
+}
+
+.input-group input::placeholder{
+    color: #6974A8;
+    font-size: 13px;
+}
+
+.gender-box{
+    display: flex;
+    margin-top: 19px;
+    align-items: center;
+}
+
+.gender-box h3{ 
+    font-size: 14px;
+    color: #000000;
+    margin-left: 17.64px;
+}
+
+#male{
+    margin-left: 81.64px;
+}
+
+.gender-box input[type="radio"]{
+    width: 19px;
+    height: 19px;
+    border: 2px solid #7A82AE;
+    border-radius: 50%;
+}
+
+.gender-box label{
+    margin-left: 7px;
+    font-size: 13px;
+    color: #000000;
+}
+
+#female{
+    margin-left: 11px;
+}
+
+.gender-box input[type="radio"]::before {
+    content: "";
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em #7257C4;
+  }
+  
+.gender-box input[type="radio"]:checked::before {
+    transform: scale(1);
+}
+
+#reg-email{
+    margin-top: 30.17px;
+}
+
+#reg-password,
+#reg-repeat-password{
+    margin-top: 13.47px;
+}
+
+#reg-password-input,
+#reg-repeat-password-input{
+    padding-right: 50px;
+}
+
+.eye-icon{
+    position: absolute;
+    top: 11.67px;
+    right: 15.14px;
+    cursor: pointer;
+}
+
+.confirm-box{
+    display: flex;
+    margin-top: 20.24px;
+    column-gap: 14px;
+}
+
+.confirm-checkbox{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--checkboxBorder);
+    cursor: pointer;
+}
+
+.confirm-checkbox img{
+    display: none;
+}
+
+.confirm-checkbox.active{
+    background-color: var(--checkboxActive);
+    border-color: var(--checkboxActive);
+}
+
+.confirm-checkbox.active img{
+    display: block;
+}
+
+.confirm-text{
+    width: 347px;
+    font-size: 12px;
+    color: #1A1D1E;
+}
+
+.confirm-text a{
+    text-decoration: none;
+    color: var(--Violet);
+}
+
+#reg-form .submit-btn{
+    margin-top: 33px;
+    margin-bottom: 63px;
+}
