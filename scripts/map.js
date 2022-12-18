@@ -15,6 +15,9 @@ const repeatPasswordIcon = document.getElementById("eye-icon-repeat-password");
 const confirm = document.querySelector(".confirm-checkbox");
 const avatarModal = document.querySelector("#avatar-popup");
 const file = document.getElementById("file-avatar");
+const authForm = document.getElementById("auth-popup");
+const authPasswordIcon = document.querySelector("#eye-auth-password");
+const authConfirm = document.getElementById("auth-confirm");
 
 addressSelect.value = "";
 addressSelect.addEventListener("change", () => {
@@ -138,13 +141,35 @@ file.addEventListener("input", (e) => {
     let selectedFile = e.target.files[0];
     let reader = new FileReader();
 
-    let imgTag = document.querySelector(".user-big-icon");
+    let imgTag = document.querySelector(".auth-img");
     imgTag.title = selectedFile.name;
 
     reader.onload = function (event) {
       imgTag.src = event.target.result;
     };
 
+    avatarModal.style.display = "none";
+    const authModal = document.querySelector("#auth-popup");
+    authModal.style.display = "flex";
     reader.readAsDataURL(selectedFile);
   }, 5000);
+});
+
+authPasswordIcon.addEventListener("click", () => {
+  const authPassword = document.getElementById("auth-password-input");
+  if (authPassword.type === "text") {
+    authPassword.type = "password";
+  } else {
+    authPassword.type = "text";
+  }
+});
+
+authConfirm.addEventListener("click", () => {
+  authConfirm.classList.toggle("active");
+});
+
+authForm.addEventListener("submit", (e) => {
+  e.preventDefault();
+  const authModal = document.querySelector("#auth-popup");
+  authModal.style.display = "none";
 });

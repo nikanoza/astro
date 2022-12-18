@@ -230,12 +230,50 @@
 
     <div class="modal" id="auth-popup">
       <div class="popup auth-popup">
-        <img src="" alt="" class="user-big-icon" />
+        <img src="" alt="" class="auth-img" />
         <h3 class="name">გიორგი დევაძე</h3>
-
-        <button type="submit" class="submit-btn" onclick="skipAvatar()">
-          გამოტოვება
-        </button>
+        <form id="auth-form">
+          <div class="input-group" id="auth-email">
+            <img
+              src="./assets/images/popups/email.svg"
+              alt="email icon"
+              class="reg-icon"
+            />
+            <input
+              type="email"
+              name="email"
+              id="auth-email-input"
+              placeholder="ელ-ფოსტა"
+            />
+          </div>
+          <div class="input-group" id="auth-password">
+            <img
+              src="./assets/images/popups/key.svg"
+              alt="password icon"
+              class="reg-icon"
+            />
+            <input
+              type="password"
+              name="password"
+              id="auth-password-input"
+              placeholder="პაროლი"
+            />
+            <img
+              src="./assets/images/popups/eye.svg"
+              alt="eye icon"
+              class="eye-icon"
+              id="eye-auth-password"
+            />
+          </div>
+          <div class="controls">
+            <div class="confirm-checkbox" id="auth-confirm">
+              <img src="./assets/images/register/check.svg" alt="check icon" />
+            </div>
+            <h3 class="auth-confirm-text">დამახსოვრება</h3>
+            <button type="button" id="recovery-btn">პაროლის არდგენა</button>
+          </div>
+          <button type="submit" class="submit-btn">ავტორიზაცია</button>
+        </form>
       </div>
     </div>
 
