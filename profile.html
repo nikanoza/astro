@@ -1,0 +1,1065 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="./styles/common.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="./styles/profile.css" />
+    <script src="./scripts/map.js" defer></script>
+    <script src="./scripts/profile.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ASTRO</title>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <img src="./assets/images/logo.svg" alt="astro logo" />
+      <div id="header-right">
+        <div id="search-box" class="search-box">
+          <input type="text" id="name-search" placeholder="საძიებო სახელი" />
+          <img
+            src="./assets/images/search.svg"
+            alt="search icon"
+            class="search-icon"
+          />
+        </div>
+        <button id="account-btn" class="account-btn">
+          <img src="./assets/images/profile/eru.png" alt="user" />
+          <a href="#">ჩემი ანგარიში</a>
+        </button>
+        <button id="notifications" class="notifications rounded-btn active">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="19.456"
+            height="23.712"
+            viewBox="0 0 19.456 23.712"
+          >
+            <g
+              id="Group_8164"
+              data-name="Group 8164"
+              transform="translate(-16.056 -29.68)"
+            >
+              <path
+                id="Icon_material-notifications"
+                data-name="Icon material-notifications"
+                d="M9.728,23.712A2.439,2.439,0,0,0,12.16,21.28H7.3A2.431,2.431,0,0,0,9.728,23.712Zm7.3-7.3v-6.08c0-3.733-1.994-6.858-5.472-7.685V1.824a1.824,1.824,0,0,0-3.648,0v.827c-3.49.827-5.472,3.94-5.472,7.685v6.08L0,18.848v1.216H19.456V18.848Z"
+                transform="translate(16.056 29.68)"
+                fill="#c7d0fe"
+              />
+            </g>
+          </svg>
+        </button>
+        <button id="hamburger-icon" class="hamburger rounded-btn">
+          <?xml version="1.0" encoding="UTF-8"?>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            width="18px"
+            height="15px"
+            viewBox="0 0 17 15"
+            version="1.1"
+          >
+            <g id="surface1">
+              <path
+                stroke="#c7d0fe"
+                style="
+                  fill: none;
+                  stroke-width: 49.336357;
+                  stroke-linecap: round;
+                  stroke-linejoin: miter;
+                  stroke-opacity: 1;
+                  stroke-miterlimit: 4;
+                "
+                d="M 19.68796
+              1032.691406 L 270.28079 1032.691406 "
+                transform="matrix(0.0548387,0,0,0.0579151,0.549244,-46.507601)"
+              />
+              <path
+                stroke="#c7d0fe"
+                style="
+                  fill: none;
+                  stroke-width: 49.336357;
+                  stroke-linecap: round;
+                  stroke-linejoin: miter;
+                  stroke-opacity: 1;
+                  stroke-miterlimit: 4;
+                "
+                d="M 19.68796 932.666146 L 270.28079 932.666146 "
+                transform="matrix(0.0548387,0,0,0.0579151,0.549244,-46.507601)"
+              />
+              <path
+                stroke="#c7d0fe"
+                style="
+                  fill: none;
+                  stroke-width: 49.336357;
+                  stroke-linecap: round;
+                  stroke-linejoin: miter;
+                  stroke-opacity: 1;
+                  stroke-miterlimit: 4;
+                "
+                d="M 19.68796 832.708333 L 270.28079 832.708333 "
+                transform="matrix(0.0548387,0,0,0.0579151,0.549244,-46.507601)"
+              />
+            </g>
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <main id="main-container">
+      <menu id="menu-box" class="menu-box">
+        <span class="menu-header">სერვისები</span>
+        <hr class="line" />
+        <!-- services menu -->
+        <nav id="services-menu" class="services-menu">
+          <!-- ნატალური რუკა -->
+
+          <a href="" class="active">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="21.659"
+              height="21.445"
+              viewBox="0 0 21.659 21.445"
+            >
+              <g
+                id="Group_7656"
+                data-name="Group 7656"
+                transform="translate(0.385 0)"
+              >
+                <g
+                  id="Group_7657"
+                  data-name="Group 7657"
+                  transform="translate(-0.385 0)"
+                >
+                  <path
+                    id="Path_18998"
+                    data-name="Path 18998"
+                    d="M11.282,2.778C10.2,8.4,4.5,8.643,4.5,8.643c6.144.638,6.782,7.222,6.782,7.222s.638-6.584,6.782-7.222c0,0-5.7-.239-6.782-5.865"
+                    transform="translate(-4.5 1.39)"
+                    fill="#9c7df6"
+                  />
+                  <path
+                    id="Path_18999"
+                    data-name="Path 18999"
+                    d="M15.637,0A3.713,3.713,0,0,1,12.2,2.967c3.108.323,3.432,3.654,3.432,3.654s.323-3.33,3.432-3.654A3.713,3.713,0,0,1,15.637,0"
+                    transform="translate(-0.741)"
+                    fill="#9c7df6"
+                  />
+                  <path
+                    id="Path_19000"
+                    data-name="Path 19000"
+                    d="M17.059,10.341A4.7,4.7,0,0,1,12.716,14.1c3.934.409,4.343,4.624,4.343,4.624s.408-4.215,4.343-4.624a4.7,4.7,0,0,1-4.343-3.755"
+                    transform="translate(0.258 2.725)"
+                    fill="#9c7df6"
+                  />
+                </g>
+              </g>
+            </svg>
+            <span>ნატალური რუკა</span>
+            <img
+              src="./assets/images/arrow-left.svg"
+              alt="left arrow icon"
+              class="menu-right-arrow"
+            />
+          </a>
+
+          <!-- თავსებადობა -->
+
+          <a href="">
+            <img
+              src="./assets/images/diagrams.png"
+              alt="diagrams icon"
+              class="diagrams"
+            />
+            <img
+              src="./assets/images/diagrams-active.png"
+              alt="diagrams icon active"
+              class="diagrams-active"
+            />
+            <span>დღის პროგნოზი</span>
+            <img
+              src="./assets/images/arrow-left.svg"
+              alt="left arrow icon"
+              class="menu-right-arrow"
+            />
+          </a>
+          <a href="">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16.068"
+              height="16"
+              viewBox="0 0 16.068 16"
+            >
+              <g
+                id="Group_2345"
+                data-name="Group 2345"
+                transform="translate(-418.19 -351.538)"
+              >
+                <g
+                  id="Ellipse_39"
+                  data-name="Ellipse 39"
+                  transform="translate(427.258 360.538)"
+                  fill="none"
+                  stroke="#9c7df6"
+                  stroke-width="2"
+                >
+                  <circle cx="3.5" cy="3.5" r="3.5" stroke="none" />
+                  <circle cx="3.5" cy="3.5" r="2.5" fill="none" />
+                </g>
+                <g
+                  id="Ellipse_40"
+                  data-name="Ellipse 40"
+                  transform="translate(418.258 351.538)"
+                  fill="none"
+                  stroke="#9c7df6"
+                  stroke-width="2"
+                >
+                  <circle cx="3.5" cy="3.5" r="3.5" stroke="none" />
+                  <circle cx="3.5" cy="3.5" r="2.5" fill="none" />
+                </g>
+                <path
+                  id="Path_784"
+                  data-name="Path 784"
+                  d="M-.018,11.143,11.057-.017"
+                  transform="matrix(0.995, -0.105, 0.105, 0.995, 419.763, 354.889)"
+                  fill="none"
+                  stroke="#9c7df6"
+                  stroke-linecap="round"
+                  stroke-width="2"
+                />
+              </g>
+            </svg>
+            <span>თავსებადობა</span>
+            <img
+              src="./assets/images/arrow-left.svg"
+              alt="left arrow icon"
+              class="menu-right-arrow"
+            />
+          </a>
+
+          <!-- მთვარის კალენდარი -->
+
+          <a href="">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16.086"
+              height="18"
+              viewBox="0 0 16.086 18"
+            >
+              <path
+                id="Icon_awesome-moon"
+                data-name="Icon awesome-moon"
+                d="M10.913,18A8.982,8.982,0,0,0,17.9,14.667a.422.422,0,0,0-.406-.68A7.05,7.05,0,0,1,12.689.932.422.422,0,0,0,12.557.15,9,9,0,1,0,10.913,18Z"
+                transform="translate(-1.913)"
+                fill="#9c7df6"
+              />
+            </svg>
+            <span>მთვარის კალენდარი</span>
+            <img
+              src="./assets/images/arrow-left.svg"
+              alt="left arrow icon"
+              class="menu-right-arrow"
+            />
+          </a>
+
+          <!-- ასტრო სკოლა -->
+
+          <a href="">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="22"
+              height="15.802"
+              viewBox="0 0 22 15.802"
+            >
+              <g
+                id="Group_2346"
+                data-name="Group 2346"
+                transform="translate(-83.825 -592.869)"
+              >
+                <g
+                  id="Group_1538"
+                  data-name="Group 1538"
+                  transform="translate(83.825 592.869)"
+                >
+                  <path
+                    id="Union_1"
+                    data-name="Union 1"
+                    d="M1.781,15.179l.385-3.572a1.678,1.678,0,0,1,.327-3.073,4.929,4.929,0,0,1,.788-2.823L.22,4.64s-.577-.629.136-.979S11,0,11,0L21.728,3.7s.611.559,0,.909S11,8.417,11,8.417L4.332,6.08A4.581,4.581,0,0,0,3.48,8.54a1.678,1.678,0,0,1,.353,3.043l.425,3.6a2.147,2.147,0,0,1-1.337.622A1.437,1.437,0,0,1,1.781,15.179Z"
+                    transform="translate(0 0)"
+                    fill="#9c7df6"
+                  />
+                  <path
+                    id="Path_703"
+                    data-name="Path 703"
+                    d="M9.681,15.177l5.928,2.029,5.945-2.029.2,3.008a1.938,1.938,0,0,1-1.527,2.063,12.148,12.148,0,0,1-10.347-.664,1.714,1.714,0,0,1-.407-1.564c.136-1.129.207-2.843.207-2.843"
+                    transform="translate(-4.607 -7.396)"
+                    fill="#9c7df6"
+                  />
+                </g>
+              </g>
+            </svg>
+            <span>ასტრო სკოლა</span>
+            <img
+              src="./assets/images/arrow-left.svg"
+              alt="left arrow icon"
+              class="menu-right-arrow"
+            />
+          </a>
+
+          <!-- ამინდის პროგნოზი -->
+
+          <a href="">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="21.68"
+              height="18.581"
+              viewBox="0 0 21.68 18.581"
+            >
+              <g
+                id="Icon_ionic-ios-partly-sunny"
+                data-name="Icon ionic-ios-partly-sunny"
+                transform="translate(-1.445 -3.52)"
+              >
+                <g
+                  id="Group_1521"
+                  data-name="Group 1521"
+                  transform="translate(1.445 3.52)"
+                >
+                  <path
+                    id="Path_715"
+                    data-name="Path 715"
+                    d="M11.432,4.5h-.014a.726.726,0,0,0-.724.724V6.612a.726.726,0,0,0,.724.724h.014a.726.726,0,0,0,.724-.724V5.224A.726.726,0,0,0,11.432,4.5Z"
+                    transform="translate(-3.838 -4.5)"
+                    fill="#9c7df6"
+                  />
+                  <path
+                    id="Path_716"
+                    data-name="Path 716"
+                    d="M4.012,14.807v-.014a.726.726,0,0,0-.724-.724H1.849a.726.726,0,0,0-.724.724v.014a.726.726,0,0,0,.724.724H3.283A.727.727,0,0,0,4.012,14.807Z"
+                    transform="translate(-1.125 -7.214)"
+                    fill="#9c7df6"
+                  />
+                  <path
+                    id="Path_717"
+                    data-name="Path 717"
+                    d="M4.995,9.313A.724.724,0,0,0,6.021,8.291l-.93-.939a.725.725,0,0,0-.513-.215h0a.726.726,0,0,0-.513,1.237Z"
+                    transform="translate(-2.076 -5.418)"
+                    fill="#9c7df6"
+                  />
+                  <path
+                    id="Path_718"
+                    data-name="Path 718"
+                    d="M17.9,7.282a.725.725,0,0,0-.513-.215h0a.725.725,0,0,0-.513.215l-.93.935a.727.727,0,0,0,0,1.022l.014.014h0a.712.712,0,0,0,.495.2.725.725,0,0,0,.513-.215L17.9,8.3A.722.722,0,0,0,17.9,7.282Z"
+                    transform="translate(-5.175 -5.394)"
+                    fill="#9c7df6"
+                  />
+                  <path
+                    id="Path_719"
+                    data-name="Path 719"
+                    d="M5.649,19.216h0a.725.725,0,0,0-.513.215l-.93.939a.724.724,0,1,0,1.026,1.022l.93-.939a.726.726,0,0,0-.513-1.237Z"
+                    transform="translate(-1.921 -8.581)"
+                    fill="#9c7df6"
+                  />
+                </g>
+                <path
+                  id="Path_720"
+                  data-name="Path 720"
+                  d="M19.287,15.576h-.1a2.661,2.661,0,0,0-.361.016,4.509,4.509,0,0,0-6.065-3.223,4.439,4.439,0,0,0-.59.285,4.528,4.528,0,0,0-2.256,3.677c0,.084-.008.165-.008.249,0,.136.008.273.02.405,0,.016,0,.032,0,.044a3.076,3.076,0,0,0,.269,6.129h9.088a3.792,3.792,0,0,0,0-7.582Z"
+                  transform="translate(0.113 -1.057)"
+                  fill="#9c7df6"
+                />
+                <path
+                  id="Path_721"
+                  data-name="Path 721"
+                  d="M9.572,17.423v-.016c-.016-.18-.026-.36-.026-.54,0-.111.005-.222.011-.334A6.071,6.071,0,0,1,12.586,11.6a5.69,5.69,0,0,1,.789-.381h.005a3.88,3.88,0,1,0-3.808,6.2Z"
+                  transform="translate(1.469 -3.839) rotate(10)"
+                  fill="#9c7df6"
+                />
+              </g>
+            </svg>
+            <span>ამინდის პროგნოზი</span>
+            <img
+              src="./assets/images/arrow-left.svg"
+              alt="left arrow icon"
+              class="menu-right-arrow"
+            />
+          </a>
+        </nav>
+      </menu>
+
+      <!-- page content -->
+
+      <section id="page-content" class="page-content">
+        <div class="page-header">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="21.659"
+            height="21.445"
+            viewBox="0 0 21.659 21.445"
+          >
+            <g
+              id="Group_7656"
+              data-name="Group 7656"
+              transform="translate(0.385 0)"
+            >
+              <g
+                id="Group_7657"
+                data-name="Group 7657"
+                transform="translate(-0.385 0)"
+              >
+                <path
+                  id="Path_18998"
+                  data-name="Path 18998"
+                  d="M11.282,2.778C10.2,8.4,4.5,8.643,4.5,8.643c6.144.638,6.782,7.222,6.782,7.222s.638-6.584,6.782-7.222c0,0-5.7-.239-6.782-5.865"
+                  transform="translate(-4.5 1.39)"
+                  fill="#7257C4"
+                />
+                <path
+                  id="Path_18999"
+                  data-name="Path 18999"
+                  d="M15.637,0A3.713,3.713,0,0,1,12.2,2.967c3.108.323,3.432,3.654,3.432,3.654s.323-3.33,3.432-3.654A3.713,3.713,0,0,1,15.637,0"
+                  transform="translate(-0.741)"
+                  fill="#7257C4"
+                />
+                <path
+                  id="Path_19000"
+                  data-name="Path 19000"
+                  d="M17.059,10.341A4.7,4.7,0,0,1,12.716,14.1c3.934.409,4.343,4.624,4.343,4.624s.408-4.215,4.343-4.624a4.7,4.7,0,0,1-4.343-3.755"
+                  transform="translate(0.258 2.725)"
+                  fill="#7257C4"
+                />
+              </g>
+            </g>
+          </svg>
+          <span>ნატალური რუკა</span>
+        </div>
+        <hr class="line" />
+
+        <!-- user info details -->
+
+        <div id="user-details">
+          <div id="info-box" class="user-info">
+            <div id="user-info-header" class="user-info-header">
+              <img
+                src="./assets/images/profile/eru.png"
+                alt="user"
+                class="user-avatar"
+              />
+              <span>გიორგი დევაძე</span>
+            </div>
+            <hr class="line user-info-line" />
+            <div id="details">
+              <ul id="info-list" class="info-list">
+                <li>
+                  <img src="./assets/images/calendar.png" alt="calendar icon" />
+                  <span class="info-key">დაბადების თარიღი:</span>
+                  <span class="info-value">6 ივნისი 1988</span>
+                </li>
+                <li>
+                  <img src="./assets/images/time.png" alt="clock icon" />
+                  <span class="info-key">დაბადების დრო:</span>
+                  <span class="info-value">12:35</span>
+                </li>
+                <li>
+                  <img src="./assets/images/address.png" alt="address icon" />
+                  <span class="info-key">დაბადების ადგილი:</span>
+                  <span class="info-value">რუსთავი</span>
+                </li>
+                <li>
+                  <img src="./assets/images/star.png" alt="star icon" />
+                  <span class="info-key">ზოდიაქო:</span>
+                  <span class="info-value">ტყუპები</span>
+                </li>
+                <li>
+                  <span>Ac</span>
+                  <span class="info-key">ასცედენტი:</span>
+                  <span class="info-value">სასწორი</span>
+                </li>
+                <li>
+                  <span>Mc</span>
+                  <span class="info-key">მედიუმ ქოელი:</span>
+                  <span class="info-value">კიბო</span>
+                </li>
+                <li>
+                  <span>Dc</span>
+                  <span class="info-key">დესცედენტი:</span>
+                  <span class="info-value">ვერძი</span>
+                </li>
+              </ul>
+              <div class="elements-box">
+                <span id="elements-title">ელემენტები</span>
+                <hr class="line user-info-line" />
+                <ul id="elements" class="elements-list">
+                  <li>
+                    <div class="element-img-box">
+                      <img src="./assets/images/wave.png" alt="wave icon" />
+                    </div>
+                    <span class="element-name">მიწა :</span>
+                    <span class="element-value">4</span>
+                  </li>
+                  <li>
+                    <div class="element-img-box">
+                      <img src="./assets/images/water.png" alt="water icon" />
+                    </div>
+                    <span class="element-name">წყალი :</span>
+                    <span class="element-value">6</span>
+                  </li>
+                  <li>
+                    <div class="element-img-box">
+                      <img src="./assets/images/fire.png" alt="fire icon" />
+                    </div>
+                    <span class="element-name">ცეცხლი :</span>
+                    <span class="element-value">3</span>
+                  </li>
+                  <li>
+                    <div class="element-img-box">
+                      <img src="./assets/images/air.png" alt="air icon" />
+                    </div>
+                    <span class="element-name">ჰაერი :</span>
+                    <span class="element-value">3</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div id="map" class="map-box">
+            <img src="./assets/images/space.png" alt="space elements" />
+            <img
+              src="./assets/images/astro-map.png"
+              alt="astro map image"
+              class="astro-map-img"
+            />
+          </div>
+        </div>
+
+        <div id="map-descriptions">
+          <h2 class="descriptions-title">თქვენი რუკის დეტალური განმარტებები</h2>
+          <div class="descriptions-panel">
+            <button class="description-btn">პლანეტები სახლებში</button>
+            <button class="description-btn">პლანეტები ნიშნებში</button>
+            <button class="description-btn">ასპექტები</button>
+          </div>
+          <div class="descriptions-box">
+            <ul class="descriptions-list">
+              <li class="descriptions-list-item">
+                <div class="item-panel">
+                  <span>მთვარე თევზებში</span>
+                  <h3>მთვარე 7 სახლში</h3>
+                  <svg width="10" height="7" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M1 .799l4 4 4-4"
+                      stroke="#000000"
+                      stroke-width="2"
+                      fill="none"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                </div>
+                <hr class="description-line" />
+                <p class="description">
+                  ინფორმაცია ყოველ საათში განახლდება; ყოველდღიურობაში პროგნოზით
+                  თქვენ შეძლებთ იპოვოთ ინტერპრეტაციები დღევანდელი ტრანზიტებისა
+                  და უფრო დეტალური ანალიზისთვის, გადაიხადეთ ყურადღება მიაქციეთ
+                  მიმდინარე ტრანზიტების მნიშვნელობას. დაფუძნებული თქვენი
+                  დაბადების თარიღზე, ასტროლოგიური ტრანზიტები დამთავრდება
+                  თქვენთვის ხელსაყრელი ამინდია დღეს კოსმოსში; astroIDstar
+                  გთავაზობთ უნიკალურ სერვისს - ის ითვლის თქვენს მიმდინარე
+                  ტრანზიტი სტატისტიკურად და გიჩვენებთ ზოგადად დადებითი ან
+                  უარყოფითი პერიოდების პროცენტი, ფინანსებისა და კარიერის,
+                  ჯანმრთელობისა და პიროვნული სფეროებში ცხოვრება. სურვილის
+                  შემთხვევაში არსებულის მიხედვით ტრანზიტები, შეგიძლიათ წინასწარ
+                  იხილოთ 48 საათის პროგნოზი. ასევე გექნებათ შესაძლებლობა
+                  წინასწარ იყიდოთ მთელი წლის პროგნოზი.
+                </p>
+              </li>
+              <li class="descriptions-list-item">
+                <div class="item-panel">
+                  <span>მერკური კირჩხიბში</span>
+                  <h3>მერკური 10 სახლში</h3>
+                  <svg width="10" height="7" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M1 .799l4 4 4-4"
+                      stroke="#000000"
+                      stroke-width="2"
+                      fill="none"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                </div>
+                <hr class="description-line" />
+                <p class="description">
+                  ინფორმაცია ყოველ საათში განახლდება; ყოველდღიურობაში პროგნოზით
+                  თქვენ შეძლებთ იპოვოთ ინტერპრეტაციები დღევანდელი ტრანზიტებისა
+                  და უფრო დეტალური ანალიზისთვის, გადაიხადეთ ყურადღება მიაქციეთ
+                  მიმდინარე ტრანზიტების მნიშვნელობას. დაფუძნებული თქვენი
+                  დაბადების თარიღზე, ასტროლოგიური ტრანზიტები დამთავრდება
+                  თქვენთვის ხელსაყრელი ამინდია დღეს კოსმოსში; astroIDstar
+                  გთავაზობთ უნიკალურ სერვისს - ის ითვლის თქვენს მიმდინარე
+                  ტრანზიტი სტატისტიკურად და გიჩვენებთ ზოგადად დადებითი ან
+                  უარყოფითი პერიოდების პროცენტი, ფინანსებისა და კარიერის,
+                  ჯანმრთელობისა და პიროვნული სფეროებში ცხოვრება. სურვილის
+                  შემთხვევაში არსებულის მიხედვით ტრანზიტები, შეგიძლიათ წინასწარ
+                  იხილოთ 48 საათის პროგნოზი. ასევე გექნებათ შესაძლებლობა
+                  წინასწარ იყიდოთ მთელი წლის პროგნოზი.
+                </p>
+              </li>
+              <li class="descriptions-list-item">
+                <div class="item-panel">
+                  <span>იუპიტერი ტყუპებში</span>
+                  <h3>ვენერა 9 სახლში</h3>
+                  <svg width="10" height="7" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M1 .799l4 4 4-4"
+                      stroke="#000000"
+                      stroke-width="2"
+                      fill="none"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                </div>
+                <hr class="description-line" />
+                <p class="description">
+                  ინფორმაცია ყოველ საათში განახლდება; ყოველდღიურობაში პროგნოზით
+                  თქვენ შეძლებთ იპოვოთ ინტერპრეტაციები დღევანდელი ტრანზიტებისა
+                  და უფრო დეტალური ანალიზისთვის, გადაიხადეთ ყურადღება მიაქციეთ
+                  მიმდინარე ტრანზიტების მნიშვნელობას. დაფუძნებული თქვენი
+                  დაბადების თარიღზე, ასტროლოგიური ტრანზიტები დამთავრდება
+                  თქვენთვის ხელსაყრელი ამინდია დღეს კოსმოსში; astroIDstar
+                  გთავაზობთ უნიკალურ სერვისს - ის ითვლის თქვენს მიმდინარე
+                  ტრანზიტი სტატისტიკურად და გიჩვენებთ ზოგადად დადებითი ან
+                  უარყოფითი პერიოდების პროცენტი, ფინანსებისა და კარიერის,
+                  ჯანმრთელობისა და პიროვნული სფეროებში ცხოვრება. სურვილის
+                  შემთხვევაში არსებულის მიხედვით ტრანზიტები, შეგიძლიათ წინასწარ
+                  იხილოთ 48 საათის პროგნოზი. ასევე გექნებათ შესაძლებლობა
+                  წინასწარ იყიდოთ მთელი წლის პროგნოზი.
+                </p>
+              </li>
+              <li class="descriptions-list-item">
+                <div class="item-panel">
+                  <span>მზე ტყუპებში</span>
+                  <h3>მზე 10 სახლში</h3>
+                  <svg width="10" height="7" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M1 .799l4 4 4-4"
+                      stroke="#000000"
+                      stroke-width="2"
+                      fill="none"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                </div>
+                <hr class="description-line" />
+                <p class="description">
+                  ინფორმაცია ყოველ საათში განახლდება; ყოველდღიურობაში პროგნოზით
+                  თქვენ შეძლებთ იპოვოთ ინტერპრეტაციები დღევანდელი ტრანზიტებისა
+                  და უფრო დეტალური ანალიზისთვის, გადაიხადეთ ყურადღება მიაქციეთ
+                  მიმდინარე ტრანზიტების მნიშვნელობას. დაფუძნებული თქვენი
+                  დაბადების თარიღზე, ასტროლოგიური ტრანზიტები დამთავრდება
+                  თქვენთვის ხელსაყრელი ამინდია დღეს კოსმოსში; astroIDstar
+                  გთავაზობთ უნიკალურ სერვისს - ის ითვლის თქვენს მიმდინარე
+                  ტრანზიტი სტატისტიკურად და გიჩვენებთ ზოგადად დადებითი ან
+                  უარყოფითი პერიოდების პროცენტი, ფინანსებისა და კარიერის,
+                  ჯანმრთელობისა და პიროვნული სფეროებში ცხოვრება. სურვილის
+                  შემთხვევაში არსებულის მიხედვით ტრანზიტები, შეგიძლიათ წინასწარ
+                  იხილოთ 48 საათის პროგნოზი. ასევე გექნებათ შესაძლებლობა
+                  წინასწარ იყიდოთ მთელი წლის პროგნოზი.
+                </p>
+              </li>
+              <li class="descriptions-list-item">
+                <div class="item-panel">
+                  <span>მთვარე თევზებში</span>
+                  <h3>მთვარე 7 სახლში</h3>
+                  <svg width="10" height="7" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M1 .799l4 4 4-4"
+                      stroke="#000000"
+                      stroke-width="2"
+                      fill="none"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                </div>
+                <p class="description">
+                  ინფორმაცია ყოველ საათში განახლდება; ყოველდღიურობაში პროგნოზით
+                  თქვენ შეძლებთ იპოვოთ ინტერპრეტაციები დღევანდელი ტრანზიტებისა
+                  და უფრო დეტალური ანალიზისთვის, გადაიხადეთ ყურადღება მიაქციეთ
+                  მიმდინარე ტრანზიტების მნიშვნელობას. დაფუძნებული თქვენი
+                  დაბადების თარიღზე, ასტროლოგიური ტრანზიტები დამთავრდება
+                  თქვენთვის ხელსაყრელი ამინდია დღეს კოსმოსში; astroIDstar
+                  გთავაზობთ უნიკალურ სერვისს - ის ითვლის თქვენს მიმდინარე
+                  ტრანზიტი სტატისტიკურად და გიჩვენებთ ზოგადად დადებითი ან
+                  უარყოფითი პერიოდების პროცენტი, ფინანსებისა და კარიერის,
+                  ჯანმრთელობისა და პიროვნული სფეროებში ცხოვრება. სურვილის
+                  შემთხვევაში არსებულის მიხედვით ტრანზიტები, შეგიძლიათ წინასწარ
+                  იხილოთ 48 საათის პროგნოზი. ასევე გექნებათ შესაძლებლობა
+                  წინასწარ იყიდოთ მთელი წლის პროგნოზი.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- chat section -->
+
+      <section id="chat">
+        <h2 class="chat-header">ასტრო ჩათი</h2>
+        <hr class="line chat-line" />
+        <h2 class="filter-header">გაფილტრე ნიშნის მიხედვით</h2>
+
+        <!-- zodiac filter buttons -->
+
+        <div class="filter-btns">
+          <button class="filter-btn">
+            <svg
+              id="Component_8_2"
+              data-name="Component 8 – 2"
+              xmlns="http://www.w3.org/2000/svg"
+              width="36.09"
+              height="36.09"
+              viewBox="0 0 36.09 36.089"
+            >
+              <path
+                id="Path_754"
+                data-name="Path 754"
+                d="M18.045,0A18.045,18.045,0,1,0,36.09,18.045,18.045,18.045,0,0,0,18.045,0"
+                fill="#383b64"
+              />
+              <path
+                id="Path_755"
+                data-name="Path 755"
+                d="M117.638,128.452a5.463,5.463,0,0,0-2.061-3.921,6.784,6.784,0,0,0-5.716-1.1,5.983,5.983,0,0,0-3.317,2.509,5.983,5.983,0,0,0-3.317-2.509,6.783,6.783,0,0,0-5.716,1.1,5.463,5.463,0,0,0-2.061,3.921,8,8,0,0,0,2.089,5.24,1.32,1.32,0,0,0,1.927-1.8,5.368,5.368,0,0,1-1.381-3.292,2.892,2.892,0,0,1,1.144-2.063,4.229,4.229,0,0,1,3.268-.567c1.2.347,2.116,1.439,2.714,3.248l.014,7.31-.007,3.521a1.32,1.32,0,0,0,1.317,1.322h.019a1.319,1.319,0,0,0,1.317-1.322l-.007-3.524.014-7.307c.6-1.809,1.51-2.9,2.714-3.248a4.235,4.235,0,0,1,3.268.567A2.894,2.894,0,0,1,115,128.586a5.353,5.353,0,0,1-1.383,3.306,1.32,1.32,0,0,0,1.931,1.8,8,8,0,0,0,2.088-5.24"
+                transform="translate(-88.499 -114.24)"
+                fill="#e1e6ff"
+                stroke="rgba(0,0,0,0)"
+                stroke-width="1"
+              />
+            </svg>
+          </button>
+          <button class="filter-btn">
+            <svg
+              id="Component_9_2"
+              data-name="Component 9 – 2"
+              xmlns="http://www.w3.org/2000/svg"
+              width="36.09"
+              height="36.089"
+              viewBox="0 0 36.09 36.089"
+            >
+              <path
+                id="Path_756"
+                data-name="Path 756"
+                d="M586.737,0a18.045,18.045,0,1,0,18.045,18.045A18.045,18.045,0,0,0,586.737,0"
+                transform="translate(-568.692)"
+                fill="#383b64"
+              />
+              <path
+                id="Path_757"
+                data-name="Path 757"
+                d="M694.408,115.027a4.884,4.884,0,0,0-3.574,1.284l-3.817,3.817H683.68l-3.817-3.817a4.884,4.884,0,0,0-3.574-1.284,1.32,1.32,0,1,0,.139,2.636,2.321,2.321,0,0,1,1.505.45l.043.045,3.283,3.283a7.126,7.126,0,1,0,8.2-.023l3.26-3.26.044-.045a2.3,2.3,0,0,1,1.513-.449,1.32,1.32,0,0,0,.132-2.636m-4.545,12.226a4.487,4.487,0,1,1-4.487-4.487,4.492,4.492,0,0,1,4.487,4.487"
+                transform="translate(-667.48 -106.656)"
+                fill="#e1e6ff"
+                stroke="rgba(0,0,0,0)"
+                stroke-width="1"
+              />
+            </svg>
+          </button>
+          <button class="filter-btn">
+            <svg
+              id="Component_19_2"
+              data-name="Component 19 – 2"
+              xmlns="http://www.w3.org/2000/svg"
+              width="36.09"
+              height="36.089"
+              viewBox="0 0 36.09 36.089"
+            >
+              <path
+                id="Path_758"
+                data-name="Path 758"
+                d="M1155.43,0a18.045,18.045,0,1,0,18.045,18.045A18.045,18.045,0,0,0,1155.43,0"
+                transform="translate(-1137.385)"
+                fill="#383b64"
+              />
+              <path
+                id="Path_759"
+                data-name="Path 759"
+                d="M1283.506,119.382V108.424a13.511,13.511,0,0,0,4.141-2.767,1.32,1.32,0,0,0-1.815-1.916,10.52,10.52,0,0,1-3.722,2.392,1.312,1.312,0,0,0-.591.178,6.746,6.746,0,0,1-1.943.212,7.255,7.255,0,0,1-1.9-.325l-.058-.018a9.907,9.907,0,0,1-3.855-2.374,1.32,1.32,0,0,0-1.947,1.783,12.445,12.445,0,0,0,4.12,2.788v11.055a12.443,12.443,0,0,0-4.12,2.788,1.32,1.32,0,0,0,1.946,1.783,9.941,9.941,0,0,1,3.684-2.318,1.309,1.309,0,0,0,.4-.124,7.2,7.2,0,0,1,1.729-.276,6.732,6.732,0,0,1,1.892.2,1.312,1.312,0,0,0,.7.213,10.6,10.6,0,0,1,3.661,2.369,1.32,1.32,0,0,0,1.815-1.916,13.536,13.536,0,0,0-4.141-2.77m-2.639-.682a9.41,9.41,0,0,0-1.41-.051c-.3.011-.591.036-.877.073v-9.634c.286.037.578.062.877.073.117,0,.233.006.349.006a9.493,9.493,0,0,0,1.061-.06Z"
+                transform="translate(-1261.795 -95.86)"
+                fill="#e1e6ff"
+                stroke="rgba(0,0,0,0)"
+                stroke-width="1"
+              />
+            </svg>
+          </button>
+          <button class="filter-btn">
+            <svg
+              id="Component_10_1"
+              data-name="Component 10 – 1"
+              xmlns="http://www.w3.org/2000/svg"
+              width="35.599"
+              height="35.599"
+              viewBox="0 0 35.599 35.599"
+            >
+              <path
+                id="Path_760"
+                data-name="Path 760"
+                d="M1723.878,0a17.8,17.8,0,1,0,17.8,17.8,17.8,17.8,0,0,0-17.8-17.8"
+                transform="translate(-1706.078)"
+                fill="#383b64"
+              />
+              <path
+                id="Path_761"
+                data-name="Path 761"
+                d="M1843.785,136.92c-9.765-4.789-15.117,2.649-15.17,2.725a1.3,1.3,0,0,0,2.13,1.5,8.551,8.551,0,0,1,8.5-3.047,4.077,4.077,0,1,0,4.537-1.175m-1.434,5.294a1.476,1.476,0,1,1,.456-2.878c.034.014.068.026.1.037a1.475,1.475,0,0,1-.558,2.841"
+                transform="translate(-1819.54 -125.605)"
+                fill="#e1e6ff"
+              />
+              <path
+                id="Path_762"
+                data-name="Path 762"
+                d="M1845.87,231.743a1.3,1.3,0,0,0-1.812.309,8.55,8.55,0,0,1-8.5,3.047,4.077,4.077,0,1,0-4.536,1.176,14.317,14.317,0,0,0,6.328,1.607,11.4,11.4,0,0,0,8.841-4.333,1.3,1.3,0,0,0-.317-1.806m-13.419,2.189a1.468,1.468,0,0,1-.456-.073c-.033-.014-.067-.026-.1-.037a1.474,1.474,0,1,1,.557.11"
+                transform="translate(-1819.531 -211.991)"
+                fill="#e1e6ff"
+              />
+            </svg>
+          </button>
+          <button class="filter-btn">
+            <svg
+              id="Component_11_1"
+              data-name="Component 11 – 1"
+              xmlns="http://www.w3.org/2000/svg"
+              width="36.09"
+              height="36.089"
+              viewBox="0 0 36.09 36.089"
+            >
+              <path
+                id="Path_763"
+                data-name="Path 763"
+                d="M2292.816,0a18.045,18.045,0,1,0,18.045,18.045A18.045,18.045,0,0,0,2292.816,0"
+                transform="translate(-2274.771)"
+                fill="#383b64"
+              />
+              <path
+                id="Path_764"
+                data-name="Path 764"
+                d="M2423.615,129.873a1.319,1.319,0,1,0-2.636.13,2.658,2.658,0,0,1-.374,1.531c-.04.041-.094.1-.288.1a2.038,2.038,0,0,1-1.576-.476,2.714,2.714,0,0,1-.243-2.067,5.789,5.789,0,0,1,1.319-2.67c.3-.416.645-.888.972-1.432,1.085-1.808,1.664-2.986.947-6.16a5.3,5.3,0,0,0-2.329-3.161,6.413,6.413,0,0,0-5.1-.463c-2.967.78-3.654,4.326-3.564,7.141a4.358,4.358,0,1,0,2.693.682c-.13-1.6-.092-4.84,1.542-5.27a3.959,3.959,0,0,1,3.033.152,2.728,2.728,0,0,1,1.15,1.5c.519,2.3.228,2.782-.636,4.221-.267.445-.559.848-.844,1.238a8.264,8.264,0,0,0-1.792,3.808,5.016,5.016,0,0,0,.844,4.194,4.472,4.472,0,0,0,3.583,1.4,2.958,2.958,0,0,0,2.2-.917,5.152,5.152,0,0,0,1.1-3.48m-12.534-1.475a1.715,1.715,0,1,1,1.715-1.715,1.718,1.718,0,0,1-1.715,1.715"
+                transform="translate(-2396.9 -106.568)"
+                fill="#e1e6ff"
+                stroke="rgba(0,0,0,0)"
+                stroke-width="1"
+              />
+            </svg>
+          </button>
+          <button class="filter-btn">
+            <svg
+              id="Component_12_1"
+              data-name="Component 12 – 1"
+              xmlns="http://www.w3.org/2000/svg"
+              width="36.09"
+              height="36.089"
+              viewBox="0 0 36.09 36.089"
+            >
+              <path
+                id="Path_765"
+                data-name="Path 765"
+                d="M2861.509,0a18.045,18.045,0,1,0,18.045,18.045A18.045,18.045,0,0,0,2861.509,0"
+                transform="translate(-2843.464)"
+                fill="#383b64"
+              />
+              <path
+                id="Path_766"
+                data-name="Path 766"
+                d="M2952.1,124.513c.241-2.185-.131-3.727-1.137-4.715a4.645,4.645,0,0,0-3.8-1.033v-.829c0-1.551-1.417-2.634-3.446-2.634a5.207,5.207,0,0,0-2.966.887l-.054.04c-1.875-1.012-3.484-1.191-4.784-.532a3.515,3.515,0,0,0-.718.484c-1.823-.96-3.379-1.113-4.63-.452a4.6,4.6,0,0,0-2.116,3.629,1.32,1.32,0,0,0,2.633.18c.03-.376.246-1.231.722-1.478a2.387,2.387,0,0,1,1.9.323v11.265a1.32,1.32,0,0,0,2.64,0V119.4a1.984,1.984,0,0,1,.764-1.351,2.523,2.523,0,0,1,2.008.332v11.265a1.319,1.319,0,1,0,2.639,0v-10.32s0,0,0-.006a1.171,1.171,0,0,1,.857-1.159,2.6,2.6,0,0,1,1.914-.074v11.559c0,.039,0,.079.005.118a2.608,2.608,0,0,0,.163.66,20.811,20.811,0,0,1-2.789,1.686,1.319,1.319,0,1,0,1.149,2.376,24.383,24.383,0,0,0,3.391-2.071,8.58,8.58,0,0,0,3.86,1.056c.031,0,.063,0,.094,0a1.32,1.32,0,0,0,.092-2.636,8.118,8.118,0,0,1-1.786-.3,10.282,10.282,0,0,0,3.4-6.022m-4.94,3.833v-6.93a2.7,2.7,0,0,1,1.954.266c.217.213.552.826.363,2.542a7.41,7.41,0,0,1-2.317,4.122"
+                transform="translate(-2922.262 -106.915)"
+                fill="#e1e6ff"
+                stroke="rgba(0,0,0,0)"
+                stroke-width="1"
+              />
+            </svg>
+          </button>
+          <button class="filter-btn">
+            <svg
+              id="Component_13_1"
+              data-name="Component 13 – 1"
+              xmlns="http://www.w3.org/2000/svg"
+              width="36.09"
+              height="36.089"
+              viewBox="0 0 36.09 36.089"
+            >
+              <path
+                id="Path_767"
+                data-name="Path 767"
+                d="M3430.2,0a18.045,18.045,0,1,0,18.044,18.045A18.045,18.045,0,0,0,3430.2,0"
+                transform="translate(-3412.157)"
+                fill="#383b64"
+              />
+              <path
+                id="Path_768"
+                data-name="Path 768"
+                d="M3529.212,288.917H3509.77a1.32,1.32,0,0,0,0,2.639h19.442a1.32,1.32,0,0,0,0-2.639"
+                transform="translate(-3501.447 -267.902)"
+                fill="#e1e6ff"
+                stroke="rgba(0,0,0,0)"
+                stroke-width="1"
+              />
+              <path
+                id="Path_769"
+                data-name="Path 769"
+                d="M3529.212,145.2h-3.1a6.778,6.778,0,0,0-13.514,0h-2.832a1.32,1.32,0,1,0,0,2.639h19.442a1.32,1.32,0,1,0,0-2.639m-13.921,0a4.1,4.1,0,0,1,8.135,0Z"
+                transform="translate(-3501.447 -128.844)"
+                fill="#e1e6ff"
+                stroke="rgba(0,0,0,0)"
+                stroke-width="1"
+              />
+            </svg>
+          </button>
+          <button class="filter-btn">
+            <svg
+              id="Component_14_1"
+              data-name="Component 14 – 1"
+              xmlns="http://www.w3.org/2000/svg"
+              width="36.09"
+              height="36.089"
+              viewBox="0 0 36.09 36.089"
+            >
+              <path
+                id="Path_770"
+                data-name="Path 770"
+                d="M3998.9,0a18.045,18.045,0,1,0,18.044,18.045A18.045,18.045,0,0,0,3998.9,0"
+                transform="translate(-3980.851)"
+                fill="#383b64"
+              />
+              <path
+                id="Path_771"
+                data-name="Path 771"
+                d="M4082.035,123.472q-1.222-1.58-2.444-3.159a.986.986,0,0,0-1.739.472c-.02.159-.1.8-.2,1.6a1.419,1.419,0,0,1-1.667-1.165V109.6c0-1.55-1.417-2.633-3.446-2.633a5.21,5.21,0,0,0-2.966.887l-.053.039c-1.876-1.012-3.484-1.191-4.785-.532a3.519,3.519,0,0,0-.718.484c-1.823-.96-3.378-1.113-4.63-.452a4.6,4.6,0,0,0-2.116,3.629,1.315,1.315,0,0,0,1.222,1.4,1.329,1.329,0,0,0,1.411-1.216c.03-.376.246-1.231.722-1.478a2.388,2.388,0,0,1,1.9.323v11.265a1.32,1.32,0,0,0,2.64,0V111.071a1.983,1.983,0,0,1,.764-1.352,2.521,2.521,0,0,1,2.007.332v11.265a1.32,1.32,0,0,0,2.639,0V111s0,0,0-.006a1.171,1.171,0,0,1,.857-1.16,2.6,2.6,0,0,1,1.914-.073v11.559a1.186,1.186,0,0,0,.01.15,4.043,4.043,0,0,0,3.961,3.553l-.161,1.267a.826.826,0,0,0-.019.179.995.995,0,0,0,1.508.871.842.842,0,0,0,.16-.118l3.066-2.373a.988.988,0,0,0,.168-1.372"
+                transform="translate(-4051.707 -99.19)"
+                fill="#e1e6ff"
+                stroke="rgba(0,0,0,0)"
+                stroke-width="1"
+              />
+            </svg>
+          </button>
+          <button class="filter-btn">
+            <svg
+              id="Component_15_1"
+              data-name="Component 15 – 1"
+              xmlns="http://www.w3.org/2000/svg"
+              width="36.09"
+              height="36.089"
+              viewBox="0 0 36.09 36.089"
+            >
+              <path
+                id="Path_772"
+                data-name="Path 772"
+                d="M4567.589,0a18.045,18.045,0,1,0,18.044,18.045A18.045,18.045,0,0,0,4567.589,0"
+                transform="translate(-4549.544)"
+                fill="#383b64"
+              />
+              <path
+                id="Path_773"
+                data-name="Path 773"
+                d="M4687.246,119.192l-.009-.012c-.012-.016-.025-.031-.039-.046s-.031-.035-.048-.052l-.021-.023a1.31,1.31,0,0,0-1.042-.379h-6.13a1.32,1.32,0,0,0,0,2.639h3.062l-5.763,5.8-2.264-2.251a1.32,1.32,0,1,0-1.861,1.871l2.263,2.252-6.23,6.265a1.32,1.32,0,1,0,1.871,1.861l6.231-6.265,2.258,2.247a1.32,1.32,0,0,0,1.862-1.871l-2.26-2.247,5.753-5.783v3.048a1.319,1.319,0,1,0,2.637,0v-6.132a.887.887,0,0,0,.007-.108,1.314,1.314,0,0,0-.278-.808"
+                transform="translate(-4660.173 -110.043)"
+                fill="#e1e6ff"
+                stroke="rgba(0,0,0,0)"
+                stroke-width="1"
+              />
+            </svg>
+          </button>
+          <button class="filter-btn">
+            <svg
+              id="Component_16_1"
+              data-name="Component 16 – 1"
+              xmlns="http://www.w3.org/2000/svg"
+              width="36.09"
+              height="36.089"
+              viewBox="0 0 36.09 36.089"
+            >
+              <path
+                id="Path_774"
+                data-name="Path 774"
+                d="M5136.282,0a18.045,18.045,0,1,0,18.045,18.045A18.045,18.045,0,0,0,5136.282,0"
+                transform="translate(-5118.237)"
+                fill="#383b64"
+              />
+              <path
+                id="Path_775"
+                data-name="Path 775"
+                d="M5205.178,116.668a4.767,4.767,0,0,0-3.506-1.6,5.323,5.323,0,0,0-4.478,2.358c-.124-.625-.228-1.237-.321-1.784a13.666,13.666,0,0,0-.866-3.5c-1.856-3.588-4.636-3.241-5.746-2.926a6.167,6.167,0,0,0-2.406,1.374,5.389,5.389,0,0,0-2.8-1.454,5.954,5.954,0,0,0-4.312,1.035,1.277,1.277,0,1,0,1.525,2.049,3.508,3.508,0,0,1,2.345-.568,3.411,3.411,0,0,1,2.087,1.478V121.5a1.277,1.277,0,1,0,2.554,0v-8.655a3.271,3.271,0,0,1,2.258-1.262q1.313-.035,2.227,1.733a14.684,14.684,0,0,1,.615,2.76,22.485,22.485,0,0,0,1.641,6.111,3.977,3.977,0,0,1-.789,1.644c-1.367.931-3.682,2.2-4.745,2.224a1.277,1.277,0,0,0,.028,2.554h.028c2.228-.048,5.583-2.289,6.231-2.738a1.239,1.239,0,0,0,.151-.122,4.875,4.875,0,0,0,.987-1.367,3.884,3.884,0,0,0,.49.251l.074.029c.373.132,3.708,1.244,6.017-.22a4.32,4.32,0,0,0,1.937-3.4,6.226,6.226,0,0,0-1.225-4.371m-1.315,4.1a1.791,1.791,0,0,1-.761,1.509c-1.048.669-3.076.213-3.763-.015a1.813,1.813,0,0,1-.635-.531,12.593,12.593,0,0,0,.168-1.574,2.711,2.711,0,0,1,2.7-2.539,2.21,2.21,0,0,1,1.652.694,3.713,3.713,0,0,1,.637,2.457"
+                transform="translate(-5175.249 -100.774)"
+                fill="#e1e6ff"
+                stroke="rgba(0,0,0,0)"
+                stroke-width="1"
+              />
+            </svg>
+          </button>
+          <button class="filter-btn">
+            <svg
+              id="Component_17_1"
+              data-name="Component 17 – 1"
+              xmlns="http://www.w3.org/2000/svg"
+              width="36.09"
+              height="36.089"
+              viewBox="0 0 36.09 36.089"
+            >
+              <path
+                id="Path_776"
+                data-name="Path 776"
+                d="M5704.977,0a18.045,18.045,0,1,0,18.045,18.045A18.044,18.044,0,0,0,5704.977,0"
+                transform="translate(-5686.932)"
+                fill="#383b64"
+              />
+              <path
+                id="Path_777"
+                data-name="Path 777"
+                d="M5796.756,150.312a1.319,1.319,0,0,0-1.853-.222l-3.5,2.75-3.542-2.754a1.319,1.319,0,0,0-1.6-.019l-3.756,2.782-3.429-2.751a1.32,1.32,0,0,0-1.76.1l-3.386,3.387a1.319,1.319,0,0,0,1.866,1.866l2.551-2.551,3.3,2.647a1.32,1.32,0,0,0,1.611.031l3.77-2.791,3.564,2.772a1.32,1.32,0,0,0,1.625,0l4.311-3.387a1.32,1.32,0,0,0,.222-1.853"
+                transform="translate(-5767.104 -138.91)"
+                fill="#e1e6ff"
+                stroke="rgba(0,0,0,0)"
+                stroke-width="1"
+              />
+              <path
+                id="Path_778"
+                data-name="Path 778"
+                d="M5796.756,264a1.319,1.319,0,0,0-1.853-.223l-3.5,2.75-3.542-2.754a1.319,1.319,0,0,0-1.6-.019l-3.756,2.782-3.429-2.751a1.32,1.32,0,0,0-1.76.1l-3.386,3.387a1.319,1.319,0,0,0,1.866,1.866l2.551-2.551,3.3,2.647a1.32,1.32,0,0,0,1.611.031l3.77-2.791,3.564,2.772a1.32,1.32,0,0,0,1.625,0l4.311-3.387a1.32,1.32,0,0,0,.222-1.853"
+                transform="translate(-5767.104 -244.325)"
+                fill="#e1e6ff"
+                stroke="rgba(0,0,0,0)"
+                stroke-width="1"
+              />
+            </svg>
+          </button>
+          <button class="filter-btn">
+            <svg
+              id="Component_18_1"
+              data-name="Component 18 – 1"
+              xmlns="http://www.w3.org/2000/svg"
+              width="36.089"
+              height="36.089"
+              viewBox="0 0 36.089 36.089"
+            >
+              <path
+                id="Path_779"
+                data-name="Path 779"
+                d="M6273.669,0a18.045,18.045,0,1,0,18.044,18.045A18.044,18.044,0,0,0,6273.669,0"
+                transform="translate(-6255.625)"
+                fill="#383b64"
+              />
+              <path
+                id="Path_780"
+                data-name="Path 780"
+                d="M6397.483,141.116h-3.755a9.668,9.668,0,0,1,2.6-4.737,1.319,1.319,0,0,0-1.781-1.946,12.072,12.072,0,0,0-3.489,6.683h-2.375a12.08,12.08,0,0,0-3.488-6.683,1.319,1.319,0,0,0-1.782,1.946,9.672,9.672,0,0,1,2.6,4.737h-3.739a1.32,1.32,0,1,0,0,2.639h3.729a9.711,9.711,0,0,1-2.651,4.688,1.319,1.319,0,1,0,1.916,1.815,11.947,11.947,0,0,0,3.415-6.5h2.388a11.945,11.945,0,0,0,3.414,6.5,1.32,1.32,0,0,0,1.916-1.815,9.7,9.7,0,0,1-2.651-4.688h3.745a1.32,1.32,0,0,0,0-2.639"
+                transform="translate(-6371.828 -124.334)"
+                fill="#e1e6ff"
+                stroke="rgba(0,0,0,0)"
+                stroke-width="1"
+              />
+            </svg>
+          </button>
+          <hr class="line filter-line" />
+        </div>
+        <div class="friends"></div>
+      </section>
+    </main>
+  </body>
+</html>

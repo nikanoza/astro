@@ -1,0 +1,78 @@
+.account-btn{
+    padding: 5px 20px 5px 6px;
+    display: flex;
+    column-gap: 13px;
+    align-items: center;
+    background-color: transparent;
+    border: 2px solid var(--grayBorder);
+    border-radius: 27px;
+    margin-left: 114px;
+    cursor: pointer;
+}
+
+.account-btn a{
+    text-decoration: none;
+    font-size: 13px;
+    color: var(--lightGray);
+}
+
+.user-avatar{
+    border: 2px solid var(--Violet);
+    border-radius: 50%;
+}
+
+.user-info-header span{
+    color: var(--Violet);
+}
+
+.friends{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin-top: 20px;
+    padding: 0 15px;
+    width: 100%;
+}
+
+.friend-box{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    border-radius: 35px;
+    position: relative;
+    padding-right: 24px;
+}
+
+.friend-avatar{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    box-shadow: 0px 1px 1px #00000029;
+    border: 2px solid #B2BAE3;
+    margin-left: 3px;
+}
+
+.friend-status{
+    border: 2px solid #383B64;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    position: absolute;
+    left: 37px;
+    top: 31px;
+}
+
+.friend-info{
+    margin-left: 15px;
+}
+
+.friend-name{
+    font-size: 14px;
+    color: var(--textGray);
+}
+
+.friend-zodiac{
+    font-size: 13px;
+    color: var(--textGray);
+}
