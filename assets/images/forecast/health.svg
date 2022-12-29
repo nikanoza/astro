@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70">
+  <g id="Group_8861" data-name="Group 8861" transform="translate(-356 -1177)">
+    <path id="Icon_awesome-heartbeat" data-name="Icon awesome-heartbeat" d="M16.87,13.408l-2.619,5.237a.842.842,0,0,1-1.523-.032l-3-6.654L8.15,15.737H3.193l9.615,9.826a.939.939,0,0,0,1.354,0l9.621-9.826H18.034Zm8.087-8.952-.126-.132a6.9,6.9,0,0,0-9.874,0l-1.47,1.507-1.47-1.5a6.893,6.893,0,0,0-9.874,0l-.126.126a7.234,7.234,0,0,0-.385,9.594h5.4L8.92,9.509a.845.845,0,0,1,1.549-.021L13.535,16.3l2.582-5.158a.842.842,0,0,1,1.507,0l1.454,2.908h6.264a7.234,7.234,0,0,0-.385-9.594Z" transform="translate(377.512 1197.952)" fill="#c7d0fe"/>
+    <g id="Ellipse_701" data-name="Ellipse 701" transform="translate(356 1177)" fill="none" stroke="#c7d0fe" stroke-width="2">
+      <circle cx="35" cy="35" r="35" stroke="none"/>
+      <circle cx="35" cy="35" r="34" fill="none"/>
+    </g>
+  </g>
+</svg>

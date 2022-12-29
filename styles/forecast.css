@@ -1,0 +1,76 @@
+.forecast-panel{
+    width: 957px;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 60px;
+}
+
+.panel-item-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+.panel-item-box.active svg{
+    background-color: var(--Violet);
+    border-radius: 50%;
+}
+
+.panel-item-box.active svg g g {
+    stroke: var(--Violet);
+}
+.panel-item-box.active svg g path {
+    fill: white;
+}
+
+
+.panel-item-title{
+    margin-top: 11.5px;
+    font-size: 13px;
+    color: var(--textGray);
+}
+
+.amount{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: var(--Pink);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+    top: 50px;
+    left: 50px;
+}
+.health-amount{
+    left: 67px;
+}
+
+.info-texts{
+    width: 100%;
+    height: calc(100% - 194px);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.forecast-info-title{
+    font-size: 18px;
+    color: black;
+    margin-top: 30px;
+}
+
+.forecast-info{
+    max-width: 857px;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #171819;
+}

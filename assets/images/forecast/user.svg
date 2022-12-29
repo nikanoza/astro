@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70">
+  <g id="Group_8860" data-name="Group 8860" transform="translate(-225.998 -1177)">
+    <path id="Icon_awesome-user-alt" data-name="Icon awesome-user-alt" d="M11.433,12.862A6.431,6.431,0,1,0,5,6.431,6.433,6.433,0,0,0,11.433,12.862Zm5.717,1.429H14.689a7.774,7.774,0,0,1-6.512,0H5.717A5.716,5.716,0,0,0,0,20.008v.715a2.144,2.144,0,0,0,2.144,2.144H20.723a2.144,2.144,0,0,0,2.144-2.144v-.715A5.716,5.716,0,0,0,17.15,14.292Z" transform="translate(249.315 1200.568)" fill="#c7d0fe"/>
+    <g id="Ellipse_700" data-name="Ellipse 700" transform="translate(225.998 1177)" fill="none" stroke="#c7d0fe" stroke-width="2">
+      <circle cx="35" cy="35" r="35" stroke="none"/>
+      <circle cx="35" cy="35" r="34" fill="none"/>
+    </g>
+  </g>
+</svg>
